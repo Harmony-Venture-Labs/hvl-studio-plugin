@@ -5,7 +5,5 @@
   "author": {
     "name": "Harmony Venture Labs"
   },
-  "repository": "https://github.com/Harmony-Venture-Labs/hvl-studio-plugin",
-  "skills": "./skills",
-  "agents": "./agents"
+  "repository": "https://github.com/Harmony-Venture-Labs/hvl-studio-plugin"
 }
