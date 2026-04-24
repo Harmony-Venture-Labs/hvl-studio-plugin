@@ -49,16 +49,35 @@ those through — do not second-guess them.
 
 ## Step 2: Desk Research
 
-Run desk research to ground the candidate. Allowed tools only:
+**Required before writing the candidate — invoke all three helper
+prompts, in order:**
 
-- `hvl-studio:research-area` — for the industry overview
-- `hvl-studio/prompts/industry-overview.md` — ad-hoc industry context
-- `hvl-studio/prompts/operations-mapping.md` — workflow sketching
-- `hvl-studio/prompts/competitive-analysis.md` — quick ecosystem scan
+1. `hvl-studio/prompts/industry-overview.md` — populates market
+   size, company count, size distribution, growth rate, and
+   geography for the candidate's Domain section.
+2. `hvl-studio/prompts/operations-mapping.md` — sketches the
+   end-to-end workflow chain that grounds the disruption thesis.
+3. `hvl-studio/prompts/competitive-analysis.md` — surfaces
+   incumbent software, common complaints, and market gaps for the
+   Why Now section.
+
+**Use web search when executing each prompt — do not answer from
+training knowledge alone.** The purpose of these calls is a sourced
+"as-of" check that leadership can trust when reviewing the
+candidate. If a prompt returns thin or low-confidence results, note
+the gap in Open Questions rather than papering over it with
+assumptions.
+
+`hvl-studio:research-area` remains available but is **optional** at
+this stage — invoke it only if the three prompts together leave
+critical gaps that a full Thesis Brief would close. Full Thesis
+Briefs are the job of Problem Identification Sprint Day 1 and Idea
+Generation Sprint Week 1, not candidate capture.
 
 Goal: understand the industry well enough to write the three domain
 fields (industry, persona, workflow band) and a draft disruption
-thesis.
+thesis, with every claim traceable to a source or flagged as an
+open question.
 
 **Do not use** (Phase 1 / Idea Generation Sprint only):
 - Wedge Product Generator

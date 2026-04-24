@@ -1,7 +1,7 @@
 {
   "name": "hvl-studio",
   "description": "HVL Studio mini-cycle engine — skills, agents, and templates for idea generation, thesis backlog management, sprint orchestration, and phase-gate detection.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Harmony Venture Labs"
   },

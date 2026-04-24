@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.1 — 2026-04-24
+
+- `generate-thesis` Step 2 changed from soft guidance to mandatory.
+  The three helper prompts (industry-overview, operations-mapping,
+  competitive-analysis) are now required invocations with web search
+  enabled, in that order, before the candidate is written. Reason:
+  initial real-world runs showed Claude routing around desk research
+  and producing candidates from parametric knowledge alone, which
+  pushed grounding burden onto leadership review. Forcing the three
+  calls gives every candidate a sourced as-of check on market,
+  operations, and competitive landscape — consistent across
+  candidates, independent of Claude's priors in a given domain.
+- `research-area` stays available but optional at candidate stage;
+  full Thesis Brief depth belongs to Problem Identification Sprint
+  Day 1 and Idea Generation Sprint Week 1.
+
 ## 0.2.0 — 2026-04-22
 
 - `research-area` skill added. Copies CI Toolkit
